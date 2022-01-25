@@ -1,0 +1,76 @@
+.widgetSm{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 500px;
+
+}
+.widgetSmWrapper{
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.widgetSmItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+.widgetSmTitle{
+    border-bottom: 1px solid #999 ;
+    border-bottom-width:thin;
+    margin: 5px 0;
+    text-align: center;
+    color: #5550bd;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.widgetSmUserInfo{
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+}
+.widgetSmUserPicture{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+.widgetSmUsername{
+    font-weight: 800;
+
+}
+.widgetSmUserInfo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.widgetSmButon{
+border: none;
+background-color: inherit;
+cursor: pointer;
+margin-right: 3px;
+}

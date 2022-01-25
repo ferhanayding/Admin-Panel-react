@@ -1,0 +1,68 @@
+.newUser{
+    flex: 4;
+    padding: 0 20px;
+    display: flex;
+}
+.newUserWrapper{
+  flex: 2;
+  z-index: 88;
+}
+.newUserForm{
+display: flex;
+flex-direction: column;
+
+}
+.formItem{
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+width: 80%;
+}
+.formItem>input{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.formItem>input:focus{
+outline: none;
+}
+.label{
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.newUserGenderContainer{
+    display: flex;
+    align-items: center;
+}
+.genderInput{
+    margin: 0 3px;
+}
+.labelGender{
+    font-size:18px ;
+}
+.formItemSection{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.addUserButton{
+   border: none;
+   padding: 4px 0;
+   width: 30%;
+   margin: 0 auto;
+   background-color: teal; 
+   color: aliceblue;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.newUserPageRight{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.newUserPageRightImg{
+    height: 300px;
+    width: 300px;
+}

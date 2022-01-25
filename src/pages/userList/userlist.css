@@ -1,0 +1,90 @@
+.userList{
+flex: 4;
+padding: 0 20px 20px 20px;
+/* border: none; */
+}
+.userListTitle{
+    text-align: center;
+    color: #5550bd;
+    margin-bottom: 5px;
+}
+.userListUserInfo{
+display: flex;
+align-items: center;
+cursor: pointer;
+border-radius: 10px;
+padding: 2px;
+}
+.userListUserInfo:hover{
+    background-color: rgba(222,222, 222, 1);
+    transition: all 0.5s;
+}
+.userImg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: contain;
+}
+.emailContainer{
+    display: flex;
+    align-items: center;
+}
+.email{
+    margin-right: 10px;
+}
+.dollarIcon{
+    color: rgb(3, 105, 29) !important;
+}
+.transactionContainer{
+    display: flex;
+    align-items: center;
+}
+.statusContainer{
+    display: flex;
+    align-items: center;
+}
+.activee{
+    color: blue;  
+}
+.check{
+    color: rgb(18, 214, 18);
+}
+.passive{
+    color: rgb(212, 21, 21);  
+}
+.xxx{}
+.activee,.passive{
+    margin-right: 10px;
+    font-weight: bold;
+}
+.actionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.editIconContainer{
+margin-right: 10px;
+}
+.editIcon{
+    color: rgb(9, 110, 9);
+
+}
+.deletIconContainer{
+
+}
+.deleteIcon{
+color: rgb(116, 11, 11);
+}
+.editIcon,.deleteIcon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+.editIcon:hover,.deleteIcon:hover{
+    background-color: rgba(222,222, 222, 1);
+    transition: all 0.5s;
+}
